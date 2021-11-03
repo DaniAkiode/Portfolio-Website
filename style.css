@@ -19,10 +19,11 @@
     width: 100%;
     padding: 30px 0;
     font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
 }
 
 .navbar.sticky{
-    padding: 30px 0;
+    padding: 15px 0;
     background: #00853E;
 }
 
@@ -40,6 +41,11 @@
 
 .navbar .logo a span{
     color:#00853E;
+    transition: all 0.3s ease;
+}
+
+.navbar.sticky .logo a span{
+    color:#fff;
 }
 
 .navbar .menu li{
@@ -57,6 +63,10 @@
 
 .navbar .menu li a:hover{
     color:#00853E;
+}
+
+.navbar.sticky .menu li a:hover{
+    color:#fff;
 }
 
 /*Home Section Design*/
