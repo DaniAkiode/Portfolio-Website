@@ -47,3 +47,12 @@
 }
 
 /*Home Section Design*/
+
+.home{
+    display: flex;
+    background: url("images/banner2.jpg") no-repeat center;
+    height: 100vh;
+    color:#fff;
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
+}
