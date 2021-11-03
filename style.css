@@ -6,20 +6,24 @@
     text-decoration: none;
 }
 
-/*NavBar Design*/
+
 .max-width{
     max-width: 1300px;
     padding: 0 80px;
     margin: auto;
 
 }
-
+/*NavBar Design*/
 .navbar{
     position: fixed;
     width: 100%;
     padding: 30px 0;
-    /*background: #00853E;*/
     font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar.sticky{
+    padding: 30px 0;
+    background: #00853E;
 }
 
 .navbar .max-width{
